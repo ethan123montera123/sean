@@ -1,0 +1,54 @@
+    /* Style the dropdown button */
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    /* Style the dropdown content (hidden by default) */
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    /* Show the dropdown menu on hover */
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    /* Style the dropdown links */
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    /* Change color of dropdown links on hover */
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    /* Add a pointer cursor to the chevron icon */
+    
+    .gg-chevron-down {
+        cursor: pointer;
+    }
+    /* Show the dropdown content when its container is hovered over */
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    /* Style the dropdown button text */
+    
+    .dropdown span {
+        cursor: pointer;
+    }
+    /* Add a hover effect to the dropdown button text */
+    
+    .dropdown span:hover {
+        color: blue;
+    }
